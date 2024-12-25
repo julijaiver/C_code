@@ -1,0 +1,85 @@
+cmake_minimum_required(VERSION 3.29)
+project(C_code C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(Test
+        test.c
+)
+add_executable(C_code1
+        Ex1.c
+)
+add_executable(C_code2
+        Ex2.c
+)
+add_executable(C_code3
+        Ex3.c
+)
+add_executable(C_code4
+        Ex4.c
+)
+add_executable(C_code5
+        Ex5.c
+)
+add_executable(C_code6
+        Ex6.c
+)
+add_executable(C_code7
+        Ex7.c
+)
+add_executable(C_code8
+        Ex8.c
+)
+add_executable(C_code9
+        Ex9.c
+)
+add_executable(C_code10
+        Ex10.c
+)
+add_executable(C_code11
+        Ex11.c
+)
+add_executable(C_code12
+        Ex12.c
+)
+add_executable(C_code13
+        Ex13.c
+)
+add_executable(C_code14
+        Ex14.c
+)
+add_executable(C_code15
+        Ex15.c
+)
+add_executable(C_code16
+        Ex16.c
+)
+add_executable(C_code17
+        Ex17.c
+)
+add_executable(C_code18
+        Ex18.c
+)
+add_executable(C_code19
+        Ex19.c
+)
+add_executable(C_code20
+        Ex20.c
+)
+add_executable(C_code21
+        Ex21.c
+)
+add_executable(C_project
+        ProjectCSVtemp.c
+)
+add_executable(C_project2
+        projectv2.c
+)
+add_executable(Ex20debug
+        debug/main.c
+        debug/debug.c
+        debug/debug.h
+)
+add_executable(stringProc
+        stringProc.c
+)
